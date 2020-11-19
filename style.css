@@ -1,5 +1,25 @@
-#container {
-    width: 800px;
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#main-container {
+    display: grid;
+    grid-template-columns: 58% auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+#ten-node-container {
     height: 500px;
     border: 2px solid black;
+}
+
+#selection-container {
+    background-color: #dcdcdc;
+}
+
+select.hidden {
+    display: none;
 }
